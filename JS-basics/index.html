@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a = "You have been warned";
+        alert(a);
+        function hello(){
+            console.log("Hey! Umam you are the best in this world");
+        }
+        let obj = {
+            radius : 5, 
+            centre : 4 ,
+            area : function(){  
+                console.log("The area of the rectangle is = ", this.radius * this.centre)
+            }
+        }
+
+        document.addEventListener("click", function redir(){
+            console.log("You have clicked somewhere");
+            // alert("You have clicked somewhere");
+            let con =  confirm("Are you sure you want to click it?")
+            console.log(con);
+        })
+    </script>
+</head>
+<body>
+    learning Javascript;
+</body>
+</html>
